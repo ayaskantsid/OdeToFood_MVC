@@ -198,9 +198,9 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\OdeToFoodData\OdeToFoodData.csproj">
-      <Project>{BC6E58B2-23FA-426F-94CD-25D58A2C677F}</Project>
-      <Name>OdeToFoodData</Name>
+    <ProjectReference Include="..\OdeToFood_Data\OdeToFood_Data.csproj">
+      <Project>{cc64485b-b36d-4f20-b757-71ee5a91d56d}</Project>
+      <Name>OdeToFood_Data</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

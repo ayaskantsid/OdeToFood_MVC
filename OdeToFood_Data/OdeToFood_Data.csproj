@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BC6E58B2-23FA-426F-94CD-25D58A2C677F}</ProjectGuid>
+    <ProjectGuid>{CC64485B-B36D-4F20-B757-71EE5A91D56D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>OdeToFoodData</RootNamespace>
-    <AssemblyName>OdeToFoodData</AssemblyName>
+    <RootNamespace>OdeToFood_Data</RootNamespace>
+    <AssemblyName>OdeToFood_Data</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
