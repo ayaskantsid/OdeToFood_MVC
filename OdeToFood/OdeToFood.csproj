@@ -201,6 +201,7 @@
     <Content Include="Views\Restaurant\Create.cshtml" />
     <Content Include="Views\Restaurant\Edit.cshtml" />
     <Content Include="Views\Restaurant\Delete.cshtml" />
+    <Content Include="Views\Shared\_RestaurantSummary.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

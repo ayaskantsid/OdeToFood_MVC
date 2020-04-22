@@ -71,6 +71,7 @@ namespace OdeToFood.Controllers
             if (ModelState.IsValid)
             {
                 db.Update(restaurant);
+                TempData["Message"] = "You have successfully Updated the Restaurant.";
                 return RedirectToAction("Details", new { id = restaurant.Id });
             }
             return View(restaurant);
@@ -91,7 +92,9 @@ namespace OdeToFood.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id, FormCollection form)
         {
+            var tempstring = db.Get(id).Name;
             db.Delete(id);
+            TempData["Message"] = $"{tempstring} has been Successfully Deleted";
             return RedirectToAction("Index");
         }
     }
